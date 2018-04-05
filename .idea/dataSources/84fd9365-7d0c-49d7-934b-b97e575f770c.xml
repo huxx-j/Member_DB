@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Huxx">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.7">
+    <root id="1"/>
+    <schema id="2" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="15" parent="2" name="DEPARTMENTS_SEQ">
+      <ObjectId>16400</ObjectId>
+    </sequence>
+    <sequence id="16" parent="2" name="EMPLOYEES_SEQ">
+      <ObjectId>16406</ObjectId>
+    </sequence>
+    <sequence id="17" parent="2" name="LOCATIONS_SEQ">
+      <ObjectId>16397</ObjectId>
+    </sequence>
+    <table id="18" parent="2" name="COUNTRIES">
+      <ObjectId>16393</ObjectId>
+    </table>
+    <table id="19" parent="2" name="DEPARTMENTS">
+      <ObjectId>16398</ObjectId>
+    </table>
+    <table id="20" parent="2" name="EMPLOYEES">
+      <ObjectId>16403</ObjectId>
+    </table>
+    <table id="21" parent="2" name="JOBS">
+      <ObjectId>16401</ObjectId>
+    </table>
+    <table id="22" parent="2" name="JOB_HISTORY">
+      <ObjectId>16407</ObjectId>
+    </table>
+    <table id="23" parent="2" name="LOCATIONS">
+      <ObjectId>16395</ObjectId>
+    </table>
+    <table id="24" parent="2" name="MEMBER_TBL">
+      <ObjectId>20044</ObjectId>
+    </table>
+    <table id="25" parent="2" name="REGIONS">
+      <ObjectId>16391</ObjectId>
+    </table>
+    <view id="26" parent="2" name="EMP_DETAILS_VIEW">
+      <ObjectId>16409</ObjectId>
+    </view>
+    <routine id="27" parent="2" name="ADD_JOB_HISTORY">
+      <ObjectId>16423</ObjectId>
+    </routine>
+    <routine id="28" parent="2" name="SECURE_DML">
+      <ObjectId>16421</ObjectId>
+    </routine>
+  </database-model>
+</dataSource>
